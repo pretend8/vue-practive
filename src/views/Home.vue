@@ -38,6 +38,4 @@ export default {
     line-height: 160px;
   }
 
-
-
 </style>

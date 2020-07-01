@@ -1,0 +1,16 @@
+#app{
+  .main-container{
+    border: 1px solid $green;
+    min-height: 100%;
+    margin-left: $sideBarWidth;
+  }
+  .sidebar-container{
+    width: $sideBarWidth!important;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    background: $menuBg;
+  }
+}

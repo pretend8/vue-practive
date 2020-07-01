@@ -2,8 +2,10 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import 'normalize.css/normalize.css' // initial css
+import '@/styles/index.scss' // global css
 import ElementUI from 'element-ui'
-import 'element-ui/lib/theme-chalk/index.css';
+import 'element-ui/lib/theme-chalk/index.css'
 
 Vue.use(ElementUI)
 
