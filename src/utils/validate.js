@@ -21,3 +21,6 @@ export function validUsername(string) {
   return validMap.indexOf(string.trim()) >= 0
 }
 
+
+
+
